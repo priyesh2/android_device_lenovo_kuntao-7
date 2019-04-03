@@ -153,11 +153,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.netmgrd.qos.enable=true \
     persist.vendor.data.mode=concurrent
 
-# Fling velocities
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.min.fling_velocity=160 \
-    ro.max.fling_velocity=20000
-
 # RescueParty
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.disable_rescue=true
