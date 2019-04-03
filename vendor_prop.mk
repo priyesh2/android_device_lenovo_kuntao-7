@@ -86,6 +86,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.fp.gesture=1
 
+# Fingerprint
+PRODUCT_PROPERTY_OVERRIDES += \
+    log.tag.synaFpHal=W \
+    log.tag.SynapticsLIB=W \
+    log.tag.synaTransport=W
+
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.fm.transmitter=false \
