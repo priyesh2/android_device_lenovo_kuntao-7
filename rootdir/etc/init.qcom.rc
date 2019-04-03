@@ -542,7 +542,6 @@ service vfmService /vendor/bin/vfmService
     user system
     group system
     class main
-    disabled
 
 service wcnss-service /vendor/bin/wcnss_service
     class late_start
