@@ -398,13 +398,6 @@ on property:persist.env.fastdorm.enabled=true
 on property:persist.vendor.radio.atfwd.start=true
     start vendor.atfwd
 
-# Allow usb charging to be disabled peristently
-on property:persist.usb.chgdisabled=1
-    write /sys/class/power_supply/battery/charging_enabled 0
-
-on property:persist.usb.chgdisabled=0
-    write /sys/class/power_supply/battery/charging_enabled 1
-
 service qcom-c_main-sh /vendor/bin/init.class_main.sh
     class main
     user root
