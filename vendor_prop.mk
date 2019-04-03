@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.voice.path.for.pcm.voip=true \
     persist.vendor.audio.hw.binder.size_kbyte=1024
 
-# Bluetooh
+# Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.qcom.bluetooth.soc=smd
 
