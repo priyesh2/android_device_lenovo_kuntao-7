@@ -311,6 +311,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libcld80211 \
     libwpa_client \
+    wcnss_service \
     hostapd \
     wpa_supplicant \
     wpa_supplicant.conf
