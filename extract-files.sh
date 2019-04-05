@@ -59,12 +59,6 @@ fi
 # Initialize the helper
 setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false "$CLEAN_VENDOR"
 
-#
-# Add liblog dependency to smart_charger
-#
-SMART_CHARGER="$COMMON_BLOB_ROOT"/vendor/bin/smart_charger
-patchelf --add-needed liblog.so "$SMART_CHARGER"
-
 extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
 extract "$MY_DIR"/proprietary-files-qc.txt "$SRC" "$SECTION"
 

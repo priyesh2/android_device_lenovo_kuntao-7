@@ -228,7 +228,7 @@ vendor/lib/libchromatix_imx258_kuntaoof_video_4k.so
 # Camera firmware
 etc/firmware/cpp_firmware_v1_5_0.fw:vendor/firmware/cpp_firmware_v1_5_0.fw
 
-# Fastcharger
+# Smart charger
 bin/smart_charger:vendor/bin/smart_charger|f73a445e7e8d75c7a34aa993b19567e90d2c212b
 
 # Fingerprint
