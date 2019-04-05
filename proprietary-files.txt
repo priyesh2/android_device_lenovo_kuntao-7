@@ -240,6 +240,9 @@ lib64/libvfmAuth.so:vendor/lib64/libvfmAuth.so
 lib64/libvfmClient.so:vendor/lib64/libvfmClient.so
 lib64/libvfmtztransport.so:vendor/lib64/libvfmtztransport.so
 
+# NFC
+lib64/hw/nfc_nci.bcm2079x.default.so:vendor/lib64/hw/nfc_nci.bcm2079x.msm8953.so|265bfb5be9efa535596999b233b513011c5cb3bd
+
 # Graphics firmware
 etc/firmware/a506_zap.b00:vendor/firmware/a506_zap.b00
 etc/firmware/a506_zap.b01:vendor/firmware/a506_zap.b01
