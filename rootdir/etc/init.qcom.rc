@@ -614,7 +614,6 @@ service vendor.atfwd /vendor/bin/ATFWD-daemon
     group system radio
 
 on charger
-    setprop sys.usb.configfs 0
     start vendor.power_off_alarm
 
 on property:init.svc.surfaceflinger=restarting
