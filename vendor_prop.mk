@@ -162,6 +162,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true
 
+# SdcardFS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.storaged.event.interval=999999
+
 # WiFi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
