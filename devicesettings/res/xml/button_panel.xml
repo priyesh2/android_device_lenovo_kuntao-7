@@ -23,7 +23,8 @@
         <SwitchPreference
             android:key="fingerprint_gestures"
             android:title="@string/fingerprint_gestures_title"
-            android:summary="@string/fingerprint_gestures_summary" />
+            android:summary="@string/fingerprint_gestures_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
 </PreferenceScreen>
