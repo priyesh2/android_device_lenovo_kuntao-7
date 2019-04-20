@@ -139,7 +139,7 @@ BOARD_KERNEL_CMDLINE += firmware_class.path=/vendor/firmware_mnt/image
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_KERNEL_CMDLINE += loop.max_part=7
 BOARD_KERNEL_PAGESIZE := 2048
-BOARD_RAMDISK_OFFSET := 0x01000000
+BOARD_MKBOOTIMG_ARGS := --tags_offset 0x00000100
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 TARGET_KERNEL_SOURCE := kernel/lenovo/msm8953
 TARGET_KERNEL_ARCH := arm64
